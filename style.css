@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Figtree;
+  src: url(./fonts/Figtree-SemiBold.ttf);
+}
+@font-face {
+  font-family: FigtreeBold;
+  src: url(./fonts/Figtree-ExtraBold.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .card {
+  border: 1px solid hsl(0, 0%, 7%);
+  padding: 1rem;
+  background: hsl(0, 0%, 100%);
+  max-width: 70%;
+  border-radius: 1.5rem;
+  box-shadow: hsl(0, 0%, 7%) 5px 5px;
+}
+@media screen and (min-width: 375px) {
+  body .card {
+    width: 356px;
+  }
+}
+body .card__illust {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+body .card h6 {
+  font-family: FigtreeBold;
+  font-size: 1rem;
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 0.3rem;
+}
+body .card h5 {
+  font-family: Figtree;
+  margin: 10px 0px;
+}
+body .card h2 {
+  font-family: FigtreeBold;
+  margin: 10px 0px;
+}
+body .card h2 a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+}
+body .card p {
+  color: hsl(0, 0%, 50%);
+  font-family: Figtree;
+}
+body .card .avatar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+body .card .avatar img {
+  width: 4dvh;
+}
+body .card .avatar span {
+  font-family: FigtreeBold;
+}/*# sourceMappingURL=style.css.map */
